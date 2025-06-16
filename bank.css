@@ -1,0 +1,345 @@
+.welcome_banner{
+    color:crimson;
+    font-family:caveat;
+    height:30vh;
+}
+.swipe:hover{
+    color:#026856;
+}
+.welcome{
+    background-image:url('https://img.freepik.com/free-vector/digital-rupee-technology-background-design_1017-36659.jpg?ga=GA1.1.35974612.1732888332&semt=ais_hybrid&w=740');
+    height:100vh;
+    background-size: cover;
+}
+
+@keyframes swipe{
+    0%{
+    opacity:0;
+    transform:translateY(50px);
+}
+
+100%{
+    opacity:1;
+font-size:80px;
+transform:translateY(0px);
+}}
+.swipe{
+    animation:swipe;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+.image{
+    animation:swipe;
+    animation-duration: 3s;
+}
+@keyframes slide{
+    0%{
+        opacity:0;
+        transform:translateX(-80px);
+    }
+    
+    100%{
+        opacity:1;
+    font-size:30px;
+    transform:translateX(0px);
+    }}
+
+.cards,.options{
+    animation:slide;
+    animation-duration:2s;
+ }
+.section_Home{
+  text-align: center;
+  background-color: whitesmoke;
+  border-bottom-left-radius: 25px;
+  border-top-right-radius: 20px;
+  padding: 5px;
+  margin:10px;
+    transition:transform 0.2s ease;
+    width:40vw;
+    margin-bottom: 15px;
+    margin-left:0px;
+}
+.section_Home:hover{
+transform:translateX(20px);
+background:linear-gradient(to left,white,rgb(10, 10, 50));
+}
+.options{
+font-size:30px;
+color:black;
+font-family: sans-serif;
+}
+#sectionHome{
+    background-image:url('https://img.freepik.com/free-vector/rupee-symbol-digital-technology-background_1017-36810.jpg?ga=GA1.1.35974612.1732888332&semt=ais_hybrid&w=740');
+    height:100vh;
+    background-size:cover;
+}
+.cards:hover{
+    transform:translateY(-10px);
+    background:linear-gradient(to top,white,rgb(92, 22, 50));
+
+}
+.cards{
+    background-color:white;
+    height:230px;
+    border-radius:10px;
+    width:250px;
+    margin:15px;
+    padding:20px;
+}
+.trans{
+    font-size:25px;
+    font-family:sans-serif ;
+
+}
+.image{
+    border-radius: 10px;
+    margin-bottom:10px;
+    width:210px;
+    height:150px;
+}
+#sectionBalance{
+    background-image: url('https://img.freepik.com/free-vector/digital-money-inr-indian-rupee-trading-concept-background_1017-41187.jpg?ga=GA1.1.35974612.1732888332&semt=ais_hybrid&w=740');
+    background-size:cover;
+    height:100vh;
+}
+.balpart{
+    height:30vh;
+}
+.balhead{
+    animation:swipe;
+    animation-duration: 5s;
+}
+.balhead{
+    color:white;
+    font-size:80px;
+    font-family:caveat;
+    font-style:italic;
+}
+.balpara{
+    font-size:20px;
+    font-family:caveat;
+    color:black;
+}
+.balcard{
+    border-radius:15px;
+    padding:25px;
+    background-color:azure;
+    height:270px;
+    width:400px;
+}
+.bank{
+    color:white;
+    font-size:20px;
+    font-family:caveat;
+
+}
+.banks{
+    text-align:center;
+    height:10vh;
+    padding:10px;
+    border-bottom-left-radius:10px ;
+    border-bottom-right-radius: 10px;
+
+}
+.logo{
+    border-radius:20px;
+    margin:10px;
+    width:40px;
+    height:40px;
+}
+.bgregister{
+    background-image:url('https://img.freepik.com/premium-photo/online-banking-savings-concept-online-investment-savings-online-stock-investors_1048944-27610950.jpg?ga=GA1.1.35974612.1732888332&semt=ais_hybrid&w=740');
+background-size:cover;
+height:100vh;
+}
+.register{
+    border-style:solid;
+    border-radius: 10px;
+width:500px;
+height:400px;
+    color:black;
+    padding:30px;
+    font-style:italic;
+    font-family:caveat;
+    font-size:20px;
+}
+input{
+    margin:3px;
+}
+.bglogin{
+    background-image:url('https://img.freepik.com/free-vector/bank-card-coin-withdrawal-money-money-payment-symbol-vector-illustration_587448-912.jpg?ga=GA1.1.35974612.1732888332&semt=ais_hybrid&w=740');
+    background-size:cover;
+    height:100vh;
+}
+@keyframes sides{
+    0%{
+        opacity:0;
+        transform:translateY(-100px);
+    }
+    100%{
+        opacity:1;
+        transform:translateY(0px);
+    }
+}
+.register{
+    animation:sides;
+    animation-duration: 2s;
+}
+.logincard{
+    animation:sides;
+    animation-duration:2s;
+}
+.logincard{
+    color:white;
+    font-size:20px;
+    font-family:caveat;
+    font-style:italic;
+    border-style:solid;
+    height:360px;
+    border-radius: 15px;
+    width:500px;
+}
+.transaction1{
+    height:100vh;
+    background:linear-gradient(to bottom, rgb(5, 174, 160),#026856, #67022f);
+    padding:50px;
+}
+.head1{
+    text-align:center;
+    font-size:40px;
+    font-style:italic;
+    font-family:Times;
+    color:#fefefe;
+    margin:20px;
+}
+.transaction2{    
+    border-radius:10px;
+    border:solid;
+    height:400px;
+    padding:40px;
+    border-color:#360202;
+}
+.para1{
+    font-size:20px;
+    font-style:italic;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:white;
+}
+@keyframes slow{
+    0%{
+        opacity:0;
+        transform:translateX(-300px);
+    }
+    100%{
+        opacity:1;
+        transform:translateX(0px);
+    }
+}
+.sending,.tab{
+    animation-name: slow;
+    animation-duration:3s;
+}
+.knowmore{
+    background-image: url('https://img.freepik.com/free-photo/hand-pointing-currency-blockchain-technology-background_53876-102966.jpg?ga=GA1.1.35974612.1732888332&semt=ais_hybrid&w=740');
+    background-size:cover;
+    height:100vh;
+    
+}
+.head2{font-size:45px;
+    color:white;
+    font-style:italic;
+}
+.para2{
+    animation-name: slow;
+    animation-duration:3s;
+    font-size:25px;
+    font-style:italic;
+    color:rgb(19, 18, 18);
+    border:solid;
+    border-color: white;
+    border-radius:10px;
+    padding:20px;
+}
+.bghistory{
+    background-image:url('https://img.freepik.com/premium-photo/mobile-banking-concept-hand-holds-smartphone-with-abstract-icons-bank-financial-services_1073582-14286.jpg?ga=GA1.1.35974612.1732888332&semt=ais_hybrid&w=740');
+    background-size:cover;
+    height:100vh;
+}
+.bghelp{
+    background-image: url('https://img.freepik.com/free-vector/shiny-indian-rupee-digital-currency-background-with-circuit-lines_1017-41186.jpg?ga=GA1.1.35974612.1732888332&semt=ais_hybrid&w=740');
+    background-size: cover;
+    height:100vh;
+}
+.content{
+    height:30vh;
+    width:50vw;
+    border-radius:10px;
+    border-color:#46093a;
+
+}
+
+.billscard{
+    border-radius:10px;
+    height:300px;
+    width:300px;
+    background-color:white;
+    border-radius:10px;
+    margin:30px;
+    padding:20px;
+}
+.bgbills{
+    background:linear-gradient(to bottom,rgb(1, 1, 45),rgb(254, 252, 252));
+}
+.image1{
+    width:250px;
+    height:200px;
+    border-radius: 15px;
+}
+.billpara{
+    font-size:20px;
+    color:#67022f;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin:12px;
+}
+.billscard:hover{
+    transform:translateY(-10px);
+    background:linear-gradient(to top,white,rgb(1, 1, 45));
+}
+.billimage{
+    height:50vh;
+    width:100vw;
+}
+.tbl{
+animation-name:swipe;
+    border-color:#ffffff;
+    border-style: double;
+    border-radius: 5px;
+    padding:30px;
+    margin:20px;
+}
+th{
+    font-weight: bolder;
+    padding:30px;
+    color:white;
+}
+.tab{
+    height:350px;
+    padding:20px;
+    margin:5px;
+    width:350px;
+    border:solid;
+    border-radius:10px;
+border-color:white;
+}
+label{
+    font-weight: bold;
+    color:white;
+    font-weight: bold;
+    font-size:20px;
+    font-style:italic;
+}
+td{
+    padding:20px;
+    color:white;
+}
